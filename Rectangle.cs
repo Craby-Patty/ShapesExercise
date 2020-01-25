@@ -14,9 +14,8 @@ namespace ShapesExercise
         public Rectangle(int x, int y, int width, int height) : base(x, y)
 
         {
-            Width = width;
-            Height = height;
-
+            Width = Math.Abs(width);
+            Height = Math.Abs(height);
         }
 
          public int Width
@@ -24,6 +23,7 @@ namespace ShapesExercise
             get { return width; }
             set { width = value; }
         }
+
         public int Height
         {
             get { return height; }

@@ -11,7 +11,6 @@ namespace ShapesExercise
         private int size;
 
         public Square(int x, int y, int size) : base(x, y)
-
         {
             Size = size;
         }

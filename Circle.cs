@@ -13,7 +13,7 @@ namespace ShapesExercise
         public Circle(int x, int y, int diameter) : base(x,y)
 
         {
-            Diameter = diameter;
+            Diameter = Math.Abs(diameter);
         }
 
         public int Diameter

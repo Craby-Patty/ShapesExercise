@@ -12,8 +12,7 @@ namespace ShapesExercise
 
         public Ellipse(int x, int y, int diameter, int verticalDiameter) : base (x,y,diameter) 
         {
-            VerticalDiameter = verticalDiameter;
-
+            VerticalDiameter = Math.Abs(verticalDiameter);
         }
 
         public int VerticalDiameter

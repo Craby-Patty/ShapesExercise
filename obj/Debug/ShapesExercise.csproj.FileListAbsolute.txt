@@ -1,0 +1,7 @@
+E:\Projects\ShapesExercise\ShapesExercise\ShapesExercise\bin\Debug\ShapesExercise.exe.config
+E:\Projects\ShapesExercise\ShapesExercise\ShapesExercise\bin\Debug\ShapesExercise.exe
+E:\Projects\ShapesExercise\ShapesExercise\ShapesExercise\bin\Debug\ShapesExercise.pdb
+E:\Projects\ShapesExercise\ShapesExercise\ShapesExercise\obj\Debug\ShapesExercise.csprojAssemblyReference.cache
+E:\Projects\ShapesExercise\ShapesExercise\ShapesExercise\obj\Debug\ShapesExercise.csproj.CoreCompileInputs.cache
+E:\Projects\ShapesExercise\ShapesExercise\ShapesExercise\obj\Debug\ShapesExercise.exe
+E:\Projects\ShapesExercise\ShapesExercise\ShapesExercise\obj\Debug\ShapesExercise.pdb

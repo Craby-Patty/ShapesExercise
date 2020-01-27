@@ -19,18 +19,27 @@ namespace ShapesExercise
             Print(drawingOfWidgets);
         }
 
-
         static void Print(Widget[] drawing)
         {
-            Console.WriteLine("----------------------------------------------------------------");
+            Console.WriteLine(GenerateDisplayLine(64));
             Console.WriteLine("Requested Drawing");
-            Console.WriteLine("----------------------------------------------------------------");
+            Console.WriteLine(GenerateDisplayLine(64));
             foreach (var shape in drawing)
             {
                 Console.WriteLine(shape);
-            }            
-            Console.WriteLine("----------------------------------------------------------------");
+            }
+            Console.WriteLine(GenerateDisplayLine(64));
             Console.ReadKey();
+        }
+
+        static string GenerateDisplayLine(int numberOfDashes)           
+        {
+            string dashes = "";
+            for (int i = 0; i < numberOfDashes; i++)
+            {
+                dashes += "-";
+            }
+            return dashes;
         }
 
 
